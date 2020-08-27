@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Reavers_Terror_of_the_Verse</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Encounters\Aggressor\**" />
+    <Compile Remove="Data\Encounters\Crimson\**" />
+    <EmbeddedResource Remove="Data\Encounters\Aggressor\**" />
+    <EmbeddedResource Remove="Data\Encounters\Crimson\**" />
+    <None Remove="Data\Encounters\Aggressor\**" />
+    <None Remove="Data\Encounters\Crimson\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Scripts\" />
+    <Folder Include="Audio\" />
+    <Folder Include="Textures\" />
+  </ItemGroup>
+
+</Project>

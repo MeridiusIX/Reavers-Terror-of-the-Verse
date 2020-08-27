@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Behavior-Impaler</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:Reaver-Autopilot-SmallShip-A]
+        [SecondaryAutopilotData:Reaver-Autopilot-Impaler]
+
+        [TargetData:Reaver-Target-Main-A]
+        [OverrideTargetData:Reaver-Target-Main-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [UseBarrageFire:true]
+
+        [Triggers:Reaver-Trigger-GrindDamage]
+        [Triggers:Reaver-Trigger-SmallHarpoon]
+        [TriggerGroups:Reaver-TriggerGroup-Common]
+        [TriggerGroups:Reaver-TriggerGroup-HydrogenMan]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Autopilot-Impaler</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [FlyLevelWithGravity:false]
+        [WaypointTolerance:40]
+        [IdealMinSpeed:20]
+        [IdealMaxSpeed:100]
+        [MaxSpeedTolerance:5]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:500]
+
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1000]
+        [StrafeMaxDurationMs:3000]
+
+        [StrafeMinCooldownMs:3000]
+        [StrafeMaxCooldownMs:5000]
+
+        [StrafeMinimumTargetDistance:300]
+        [StrafeSpeedCutOff:60]
+        [StrafeDistanceCutOff:150]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

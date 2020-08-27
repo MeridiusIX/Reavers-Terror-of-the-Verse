@@ -1,0 +1,302 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Sounds>
+
+    <!--Short Length-->
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Short-1</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-scream-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Short-2</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-scream-02.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Short-3</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-scream-03.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Short-4</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-scream-04.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Short-5</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-scream-05.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Short-6</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-scream-06.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Short-7</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-scream-07.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Short-8</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-scream-08.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Short-9</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-scream-09.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <!--Medium Length-->
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Medium-1</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-screams-med-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Medium-2</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-screams-med-02.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Medium-3</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-screams-med-03.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Medium-4</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-screams-med-04.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Medium-5</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-screams-med-05.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <!--Long Length-->
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Long-1</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-screams-long-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Long-2</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-screams-long-02.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Long-3</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-screams-long-03.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Scream-Long-4</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-screams-long-04.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  </Sounds>
+  
+</Definitions>

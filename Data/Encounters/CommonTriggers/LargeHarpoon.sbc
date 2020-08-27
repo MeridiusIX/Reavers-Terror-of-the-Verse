@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--LargeHarpoon-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Trigger-LargeHarpoon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:15000]
+        [MaxCooldownMs:30000]
+        [StartsReady:true]
+        
+        [MaxActions:2]
+        [ActionExecution:Sequential]
+
+        [Conditions:Reaver-Condition-LargeHarpoon]
+        [Actions:Reaver-Action-LargeHarpoon1]
+        [Actions:Reaver-Action-LargeHarpoon2]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Condition-LargeHarpoon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Condition]
+
+        [UseConditions:true]
+
+        [CheckGridSpeed:true]
+        [MaxGridSpeed:15]
+
+        [CheckTargetDistance:true]
+        [MaxTargetDistance:1500]
+
+        [CheckTargetAngleFromForward:true]
+        [MaxTargetAngle:3]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Action-LargeHarpoon1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [TriggerTimerBlocks:true]
+        [TimerBlockNames:LargeTorp1-Timer]
+
+      </Description>
+
+    </EntityComponent>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Action-LargeHarpoon2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [TriggerTimerBlocks:true]
+        [TimerBlockNames:LargeTorp2-Timer]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

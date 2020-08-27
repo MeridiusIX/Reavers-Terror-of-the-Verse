@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Sounds>
+
+    <!--Short Length-->
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Detection-1</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-detection.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Growl-1</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-growls-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Growl-2</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-growls-02.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Growl-3</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-growls-03.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Reaver-Growl-4</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\rvr-growls-04.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  </Sounds>
+  
+</Definitions>

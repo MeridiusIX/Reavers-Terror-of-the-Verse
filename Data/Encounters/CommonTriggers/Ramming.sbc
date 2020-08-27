@@ -1,0 +1,105 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--Ramming-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Trigger-Ramming</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:TargetNear]
+        [TargetDistance:600]
+        [MinCooldownMs:60000]
+        [MaxCooldownMs:120000]
+        [StartsReady:true]
+
+        [Conditions:Reaver-Condition-Ramming]
+
+        [MaxActions:-1]
+        [Actions:Reaver-Action-Ramming]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Condition-Ramming</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Condition]
+
+        [UseConditions:true]
+
+        [CheckIfGridNameMatches:true]
+        [AllowPartialGridNameMatches:true]
+        [GridNamesToCheck:Charger]
+        [GridNamesToCheck:Tormentor]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Action-Ramming</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Ramming:true]
+        [UseChatBroadcast:true]
+        [ChatData:Reaver-Chat-Ramming]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Chat-Ramming</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:-1]
+        [BroadcastRandomly:true]
+        [Author:Reaver Comms Channel]
+        [Color:Red]
+
+        [ChatMessages: - Audio Broadcast - ]
+        [ChatAudio:Reaver-Growl-1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: - Audio Broadcast - ]
+        [ChatAudio:Reaver-Growl-2]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: - Audio Broadcast - ]
+        [ChatAudio:Reaver-Growl-3]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: - Audio Broadcast - ]
+        [ChatAudio:Reaver-Growl-4]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

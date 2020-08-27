@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<EntityComponents>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Reaver-Behavior-Test-A</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Behavior]
+
+				[BehaviorName:Hunter]
+
+				[AutopilotData:Reaver-Autopilot-Test-A]
+				[SecondaryAutopilotData:Reaver-Autopilot-Test-B]
+
+				[TargetData:Reaver-Target-Main-A]
+				[OverrideTargetData:Reaver-Target-Main-B]
+				[EngageOnTargetLineOfSight:true]
+
+				[Triggers:Reaver-Trigger-GrindDamage]
+				[Triggers:Reaver-Trigger-ScreamBroadcast]
+				[Triggers:Reaver-Trigger-SmallHarpoon1]
+
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Reaver-Autopilot-Test-A</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Autopilot]
+
+				[DisableInertiaDampeners:false]
+				[FlyLevelWithGravity:true]
+				[WaypointTolerance:25]
+				[IdealMinSpeed:10]
+				[IdealMaxSpeed:20]
+				[MaxSpeedTolerance:5]
+				[SlowDownOnWaypointApproach:true]
+				[ExtraSlowDownDistance:50]
+
+				[AllowStrafing:true]
+				[StrafeMinDurationMs:1000]
+				[StrafeMaxDurationMs:1500]
+
+			</Description>
+
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>Reaver-Autopilot-Test-B</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Autopilot]
+
+				[DisableInertiaDampeners:false]
+				[FlyLevelWithGravity:false]
+				[WaypointTolerance:40]
+				[IdealMinSpeed:15]
+				[IdealMaxSpeed:90]
+				[MaxSpeedTolerance:5]
+				[SlowDownOnWaypointApproach:true]
+				[ExtraSlowDownDistance:300]
+
+				[AllowStrafing:true]
+				[StrafeMinDurationMs:1000]
+				[StrafeMaxDurationMs:3000]
+
+				[StrafeMinCooldownMs:5000]
+				[StrafeMaxCooldownMs:6000]
+
+				[StrafeMinimumTargetDistance:300]
+
+			</Description>
+
+		</EntityComponent>
+
+		
+
+	</EntityComponents>
+</Definitions>

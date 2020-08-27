@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--HydrogenManFar-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Trigger-HydrogenManFar</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:PlayerFar]
+        [TargetDistance:2000]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [MaxActions:-1]
+        [Actions:Reaver-Action-HydrogenManFar]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Action-HydrogenManFar</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [RefreshTarget:true]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:Reaver-Trigger-HydrogenManFar]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

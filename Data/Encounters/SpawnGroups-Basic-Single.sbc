@@ -1,0 +1,961 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    
+    <!--Aggressor-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Aggressor</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:666]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Aggressor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-MediumShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Berserker-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Berserker</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Berserker">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-SmallShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Butcher-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Butcher</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:666]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Butcher">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-MediumShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Carver-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Carver</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:666]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Carver">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-MediumShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Charger-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Charger</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:666]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Charger">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-MediumShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Crimson Tormentor-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-CrimsonTormentor</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:999]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Crimson Tormentor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-LargeShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Crimson-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Crimson</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:999]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Crimson">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-LargeShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Devourer-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Devourer</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:666]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Devourer">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-MediumShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Havelock (Implement At Later Date)-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Havelock</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+        [AdminSpawnOnly:true]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:999]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Havelock">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-LargeShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Impaler-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Impaler</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Impaler">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-Impaler</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Invader (Atmo) (Implement At Later Date)-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Invader-Atmo</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:false]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Invader (Atmo)">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-SmallShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Invader (Space)-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Invader-Space</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Invader (Space)">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-SmallShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Mutilator-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Mutilator</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:666]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Mutilator">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-Mutilator</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Scourge-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Scourge</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:999]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Scourge">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-LargeShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Slayer-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Slayer</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Slayer">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-SmallShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Thrasher-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Thrasher</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Thrasher">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-MediumShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--Tormentor-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Single-Tormentor</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:false]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [IgnoreGlobalBlockReplacer:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+
+        [ConfigureSpecialNpcThrusters:true]
+        [RestrictNpcIonThrust:true]
+        [NpcIonThrustPowerMultiply:0.0001]
+        [NpcAtmoThrustPowerMultiply:0.0001]
+        [NpcHydroThrustPowerMultiply:0.0001]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:999]
+
+        [ReduceBlockBuildStates:true]
+        [MinimumBlocksPercent:5]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Tormentor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-LargeShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

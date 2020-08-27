@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-Group-Test-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:false]
+        [AtmosphericCargoShip:true]
+        [AdminSpawnOnly:true]
+
+        [FactionOwner:REAVER]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseBlockReplacerProfile:true]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+        [ReduceBlockBuildStates:false]
+        [MinimumBlocksPercent:10]
+        [MaximumBlocksPercent:15]
+        [MinimumBuildPercent:10]
+        [MaximumBuildPercent:75]
+
+        [RandomNumberRoll:1]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Aggressor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-Test-A</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-RVR) Aggressor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>200.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-Test-A</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-RVR) Aggressor">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>-200.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-Test-A</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    
+    
+  </SpawnGroups>
+</Definitions>

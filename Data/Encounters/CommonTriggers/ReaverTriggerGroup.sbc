@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-TriggerGroup-Common</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:Reaver-Trigger-NewTarget]
+        [Triggers:Reaver-Trigger-GeneralDamage]
+        [Triggers:Reaver-Trigger-Compromised]
+        [Triggers:Reaver-Trigger-Ramming]
+        [Triggers:Reaver-Trigger-RandomRamming]
+        [Triggers:Reaver-Trigger-ReceiveTarget]
+
+      </Description>
+
+    </EntityComponent>
+    
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-TriggerGroup-HydrogenMan</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:Reaver-Trigger-HydrogenManFar]
+        [Triggers:Reaver-Trigger-HydrogenManNear]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>
