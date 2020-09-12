@@ -83,20 +83,9 @@
         [Color:Red]
 
         [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Growl-1]
+        [ChatAudio:Reaver-Growl]
         [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Growl-2]
-        [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Growl-3]
-        [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Growl-4]
-        [BroadcastChatType:Chat]
+        [ChatVolumeMultiplier:0.4]
 
       </Description>
     </EntityComponent>

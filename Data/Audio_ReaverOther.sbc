@@ -24,7 +24,7 @@
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>Reaver-Growl-1</SubtypeId>
+        <SubtypeId>Reaver-Growl</SubtypeId>
       </Id>
       <Category>HUD</Category>
       <MaxDistance>2000</MaxDistance>
@@ -34,51 +34,12 @@
         <Wave Type="D3">
           <Start>Audio\rvr-growls-01.xwm</Start>
         </Wave>
-      </Waves>
-    </Sound>
-
-    <Sound>
-      <Id>
-        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>Reaver-Growl-2</SubtypeId>
-      </Id>
-      <Category>HUD</Category>
-      <MaxDistance>2000</MaxDistance>
-      <PreventSynchronization>0</PreventSynchronization>
-      <Volume>1.0</Volume>
-      <Waves>
         <Wave Type="D3">
           <Start>Audio\rvr-growls-02.xwm</Start>
         </Wave>
-      </Waves>
-    </Sound>
-
-    <Sound>
-      <Id>
-        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>Reaver-Growl-3</SubtypeId>
-      </Id>
-      <Category>HUD</Category>
-      <MaxDistance>2000</MaxDistance>
-      <PreventSynchronization>0</PreventSynchronization>
-      <Volume>1.0</Volume>
-      <Waves>
         <Wave Type="D3">
           <Start>Audio\rvr-growls-03.xwm</Start>
         </Wave>
-      </Waves>
-    </Sound>
-
-    <Sound>
-      <Id>
-        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>Reaver-Growl-4</SubtypeId>
-      </Id>
-      <Category>HUD</Category>
-      <MaxDistance>2000</MaxDistance>
-      <PreventSynchronization>0</PreventSynchronization>
-      <Volume>1.0</Volume>
-      <Waves>
         <Wave Type="D3">
           <Start>Audio\rvr-growls-04.xwm</Start>
         </Wave>

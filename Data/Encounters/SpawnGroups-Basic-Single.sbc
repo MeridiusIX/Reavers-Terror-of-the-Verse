@@ -13,8 +13,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -33,6 +37,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:2]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -71,8 +77,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -89,6 +99,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:2]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -127,8 +139,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -145,6 +161,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:2]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -183,8 +201,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -201,6 +223,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:0.8]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -239,8 +263,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -257,6 +285,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:2]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -295,8 +325,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -313,6 +347,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.5]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -351,8 +387,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -369,6 +409,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.1]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -407,8 +449,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -425,6 +471,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.1]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -463,8 +511,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
         [AdminSpawnOnly:true]
 
         [FactionOwner:REAVER]
@@ -482,6 +534,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.1]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -520,8 +574,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -538,6 +596,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:2]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -576,8 +636,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:false]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -632,8 +696,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -650,6 +718,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:2]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -688,8 +758,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -706,6 +780,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.5]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -744,8 +820,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -762,6 +842,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:0.2]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -800,8 +882,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -818,6 +904,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.5]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -856,8 +944,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -874,6 +966,8 @@
         [NpcIonThrustPowerMultiply:0.0001]
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
+
+        [MaxGravity:1.9]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -912,8 +1006,12 @@
         [Modular Encounters SpawnGroup]
 
         [SpaceCargoShip:true]
-        [SpaceRandomEncounter:false]
-        [AtmosphericCargoShip:false]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:2]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]

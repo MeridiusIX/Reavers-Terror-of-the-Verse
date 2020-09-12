@@ -59,6 +59,7 @@
 
         [ChatMessages:A Reaver {AntennaName} Has Detected a Potential Target]
         [ChatAudio:Reaver-Detection-1]
+        [ChatVolumeMultiplier:0.2]
         [BroadcastChatType:Notify]
 
       </Description>

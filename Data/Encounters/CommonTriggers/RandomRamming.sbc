@@ -20,8 +20,6 @@
         [MaxCooldownMs:120000]
         [StartsReady:true]
 
-        [Conditions:Reaver-Condition-RandomRamming]
-
         [MaxActions:-1]
         [Actions:Reaver-Action-RandomRamming]
 

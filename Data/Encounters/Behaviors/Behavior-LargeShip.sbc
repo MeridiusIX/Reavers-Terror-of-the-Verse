@@ -69,11 +69,11 @@
         [DisableInertiaDampeners:false]
         [FlyLevelWithGravity:true]
         [WaypointTolerance:40]
-        [IdealMinSpeed:20]
+        [IdealMinSpeed:10]
         [IdealMaxSpeed:100]
         [MaxSpeedTolerance:5]
         [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:600]
+        [ExtraSlowDownDistance:800]
 
         [AllowStrafing:true]
         [StrafeMinDurationMs:3000]

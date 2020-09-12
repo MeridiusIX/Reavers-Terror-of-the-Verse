@@ -52,8 +52,8 @@
         [ExtraSlowDownDistance:150]
 
         [AllowStrafing:true]
-        [StrafeMinDurationMs:1000]
-        [StrafeMaxDurationMs:1500]
+        [StrafeMinDurationMs:2000]
+        [StrafeMaxDurationMs:3000]
 
       </Description>
 

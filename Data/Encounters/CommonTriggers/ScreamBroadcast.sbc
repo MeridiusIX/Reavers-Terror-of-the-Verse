@@ -34,7 +34,7 @@
 
         [RivalAI Action]
 
-        [Chance:33]
+        [Chance:25]
         [UseChatBroadcast:true]
         [ChatData:Reaver-Chat-ScreamBroadcast]
 
@@ -59,40 +59,9 @@
         [Color:Red]
 
         [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Scream-Medium-1]
+        [ChatAudio:Reaver-Screams]
         [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Scream-Medium-2]
-        [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Scream-Medium-3]
-        [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Scream-Medium-4]
-        [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Scream-Medium-5]
-        [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Scream-Long-1]
-        [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Scream-Long-2]
-        [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Scream-Long-3]
-        [BroadcastChatType:Chat]
-
-        [ChatMessages: - Audio Broadcast - ]
-        [ChatAudio:Reaver-Scream-Long-4]
-        [BroadcastChatType:Chat]
+        [ChatVolumeMultiplier:0.25]
 
       </Description>
     </EntityComponent>
