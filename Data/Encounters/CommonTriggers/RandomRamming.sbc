@@ -36,7 +36,7 @@
 
         [RivalAI Action]
 
-        [Chance:20]
+        [Chance:8]
         [Ramming:true]
         [UseChatBroadcast:true]
         [ChatData:Reaver-Chat-Ramming]

@@ -12,10 +12,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -76,10 +81,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -138,10 +148,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -200,10 +215,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -262,10 +282,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -324,10 +349,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -386,10 +416,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -448,10 +483,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -510,10 +550,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -573,10 +618,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -635,10 +685,15 @@
 
         [Modular Encounters SpawnGroup]
 
-        [SpaceCargoShip:false]
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -695,10 +750,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -757,10 +817,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -819,10 +884,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -881,10 +951,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -943,10 +1018,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -1005,10 +1085,15 @@
 
         [Modular Encounters SpawnGroup]
 
+        [ChanceCeiling:200]
+        
+        [DisableDampeners:false]
+
         [SpaceCargoShip:true]
+        [SpaceCargoShipChance:200]
 
         [AtmosphericCargoShip:true]
-        [AtmosphericCargoShipChance:2]
+        [AtmosphericCargoShipChance:1]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
