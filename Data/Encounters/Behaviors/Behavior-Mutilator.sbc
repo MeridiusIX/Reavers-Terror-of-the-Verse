@@ -14,7 +14,7 @@
         [BehaviorName:Hunter]
 
         [AutopilotData:Reaver-Autopilot-MediumShip-A]
-        [SecondaryAutopilotData:Reaver-Autopilot-MediumShip-B]
+        [SecondaryAutopilotData:Reaver-Autopilot-Mutilator]
 
         [TargetData:Reaver-Target-Main-A]
         [OverrideTargetData:Reaver-Target-Main-B]

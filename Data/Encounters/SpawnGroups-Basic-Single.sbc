@@ -21,6 +21,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -90,6 +91,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -157,6 +159,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -224,6 +227,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -291,6 +295,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -358,6 +363,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -425,6 +431,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -492,6 +499,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -551,7 +559,7 @@
         [Modular Encounters SpawnGroup]
 
         [ChanceCeiling:200]
-        
+
         [DisableDampeners:false]
 
         [SpaceCargoShip:true]
@@ -559,10 +567,11 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
-        [AdminSpawnOnly:true]
+        [AdminSpawnOnly:false]
 
         [FactionOwner:REAVER]
         [ReplenishSystems:true]
@@ -591,6 +600,10 @@
         [MaximumBlocksPercent:15]
         [MinimumBuildPercent:10]
         [MaximumBuildPercent:75]
+
+        [RequiredAnyPlayersOnline:76561198000167584]
+        [RequiredAnyPlayersOnline:76561197996737979]
+        [RequiredAnyPlayersOnline:76561197995467023]
 
       </Description>
       <IsPirate>true</IsPirate>
@@ -627,6 +640,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -647,7 +661,7 @@
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
 
-        [MaxGravity:2]
+        [MaxGravity:1.4]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -694,6 +708,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -759,6 +774,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -826,6 +842,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -846,7 +863,7 @@
         [NpcAtmoThrustPowerMultiply:0.0001]
         [NpcHydroThrustPowerMultiply:0.0001]
 
-        [MaxGravity:1.5]
+        [MaxGravity:1.3]
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:10000]
@@ -893,6 +910,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -960,6 +978,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -1027,6 +1046,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
@@ -1094,6 +1114,7 @@
 
         [AtmosphericCargoShip:true]
         [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
 
         [GravityCargoShip:true]
         [GravityCargoShipChance:10]
