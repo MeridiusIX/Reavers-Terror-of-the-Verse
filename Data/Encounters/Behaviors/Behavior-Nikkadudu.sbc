@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Behavior-Nikkadudu</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:Reaver-Autopilot-LargeShip-A]
+        [SecondaryAutopilotData:Reaver-Autopilot-LargeShip-B]
+
+        [TargetData:Reaver-Target-Main-B]
+        [OverrideTargetData:Reaver-Target-Main-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:Reaver-TriggerGroup-Common]
+        [Triggers:Reaver-Trigger-ScreamBroadcast]
+        [Triggers:Reaver-Trigger-Nikkadudu]
+
+        [UseBarrageFire:true]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

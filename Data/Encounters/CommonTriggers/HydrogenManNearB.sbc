@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--HydrogenManNear-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Trigger-HydrogenManNearB</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:1000]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [MaxActions:-1]
+        [Actions:Reaver-Action-HydrogenManNearB]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Action-HydrogenManNearB</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [RefreshTarget:true]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:Reaver-Trigger-HydrogenManFarB]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

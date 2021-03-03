@@ -18,7 +18,7 @@
         [MinCooldownMs:60000]
         [MaxCooldownMs:180000]
         [StartsReady:false]
-        [MaxActions:-1]
+        [MaxActions:3]
         [Actions:Reaver-Action-ScreamBroadcast]
 
       </Description>
@@ -34,7 +34,7 @@
 
         [RivalAI Action]
 
-        [Chance:25]
+        [Chance:15]
         [UseChatBroadcast:true]
         [ChatData:Reaver-Chat-ScreamBroadcast]
 

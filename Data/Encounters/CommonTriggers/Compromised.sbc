@@ -17,8 +17,12 @@
         [Type:Compromised]
         [StartsReady:true]
         [MaxActions:1]
-        [Actions:Reaver-Action-Compromised-B]
         [Actions:Reaver-Action-Compromised-A]
+        [Actions:Reaver-Action-Compromised-B]
+        [Actions:Reaver-Action-Compromised-C]
+        [Actions:Reaver-Action-Compromised-D]
+        [Actions:Reaver-Action-Compromised-E]
+        [Actions:Reaver-Action-Compromised-F]
 
       </Description>
 
@@ -54,6 +58,70 @@
         [StaggerWarheadDetonation:true]
         [SelfDestructTimeBetweenBlasts:3]
         [SelfDestructTimerPadding:120]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Action-Compromised-C</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [StopAllRotation:true]
+        [StopAllThrust:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Action-Compromised-D</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:33]
+        [ChangeInertiaDampeners:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Action-Compromised-E</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:25]
+        [RandomGyroRotation:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Action-Compromised-F</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:25]
+        [RandomThrustDirection:true]
 
       </Description>
 

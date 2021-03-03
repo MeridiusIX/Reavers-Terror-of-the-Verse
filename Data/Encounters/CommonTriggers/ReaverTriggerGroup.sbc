@@ -21,8 +21,26 @@
       </Description>
 
     </EntityComponent>
-    
-  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-TriggerGroup-Common-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:Reaver-Trigger-NewTarget]
+        [Triggers:Reaver-Trigger-GeneralDamage]
+        [Triggers:Reaver-Trigger-Compromised]
+        [Triggers:Reaver-Trigger-ReceiveTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>Reaver-TriggerGroup-HydrogenMan</SubtypeId>
@@ -33,6 +51,22 @@
 
         [Triggers:Reaver-Trigger-HydrogenManFar]
         [Triggers:Reaver-Trigger-HydrogenManNear]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-TriggerGroup-HydrogenManB</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:Reaver-Trigger-HydrogenManFarB]
+        [Triggers:Reaver-Trigger-HydrogenManNearB]
 
       </Description>
 

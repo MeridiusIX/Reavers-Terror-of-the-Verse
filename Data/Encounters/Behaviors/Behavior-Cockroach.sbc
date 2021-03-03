@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Behavior-Cockroach</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:Reaver-Autopilot-MediumShip-A]
+        [SecondaryAutopilotData:Reaver-Autopilot-Mutilator]
+
+        [TargetData:Reaver-Target-Main-B]
+        [OverrideTargetData:Reaver-Target-Main-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [UseBarrageFire:true]
+
+        [Triggers:Reaver-Trigger-GrindDamage]
+        [Triggers:Reaver-Trigger-LargeHarpoon]
+        [Triggers:Reaver-Trigger-ScreamBroadcast]
+        [Triggers:Reaver-Trigger-Cockroach]
+        [TriggerGroups:Reaver-TriggerGroup-Common]
+        [TriggerGroups:Reaver-TriggerGroup-HydrogenMan]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
