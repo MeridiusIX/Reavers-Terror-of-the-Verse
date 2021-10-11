@@ -14,6 +14,7 @@
         [Triggers:Reaver-Trigger-NewTarget]
         [Triggers:Reaver-Trigger-GeneralDamage]
         [Triggers:Reaver-Trigger-Compromised]
+        [Triggers:Reaver-Trigger-Presence]
         [Triggers:Reaver-Trigger-Ramming]
         [Triggers:Reaver-Trigger-RandomRamming]
         [Triggers:Reaver-Trigger-ReceiveTarget]
@@ -34,6 +35,7 @@
         [Triggers:Reaver-Trigger-NewTarget]
         [Triggers:Reaver-Trigger-GeneralDamage]
         [Triggers:Reaver-Trigger-Compromised]
+        [Triggers:Reaver-Trigger-Presence]
         [Triggers:Reaver-Trigger-ReceiveTarget]
 
       </Description>

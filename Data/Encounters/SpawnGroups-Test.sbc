@@ -11,9 +11,12 @@
 
         [Modular Encounters SpawnGroup]
 
+        [SpawnGroupEnabled:true]
+
         [SpaceCargoShip:true]
         [SpaceRandomEncounter:false]
         [AtmosphericCargoShip:true]
+        [RivalAiSpawn:true]
         [AdminSpawnOnly:true]
 
         [FactionOwner:REAVER]
@@ -35,20 +38,34 @@
 
         [RandomNumberRoll:1]
 
+        [PrefabSpawningMode:RandomSelectedIndexes]
+
+        [PrefabIndexGroupNames:First]
+        [PrefabIndexGroupValues:0]
+
+        [PrefabIndexGroupNames:First]
+        [PrefabIndexGroupValues:1]
+
+        [PrefabIndexGroupNames:Second]
+        [PrefabIndexGroupValues:2]
+
+        [PrefabIndexGroupNames:Second]
+        [PrefabIndexGroupValues:3]
+
       </Description>
       <IsPirate>true</IsPirate>
       <Frequency>5.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-RVR) Aggressor">
           <Position>
-            <X>0.0</X>
+            <X>-200.0</X>
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
           <Speed>25</Speed>
           <Behaviour>Reaver-Behavior-Test-A</Behaviour>
         </Prefab>
-        <Prefab SubtypeId="(NPC-RVR) Aggressor">
+        <Prefab SubtypeId="(NPC-RVR) Berserker">
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
@@ -57,11 +74,20 @@
           <Speed>25</Speed>
           <Behaviour>Reaver-Behavior-Test-A</Behaviour>
         </Prefab>
-        <Prefab SubtypeId="(NPC-RVR) Aggressor">
+        <Prefab SubtypeId="(NPC-RVR) Butcher">
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
             <Z>-200.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-Test-A</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-RVR) Carver">
+          <Position>
+            <X>200.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
           </Position>
           <Speed>25</Speed>
           <Behaviour>Reaver-Behavior-Test-A</Behaviour>

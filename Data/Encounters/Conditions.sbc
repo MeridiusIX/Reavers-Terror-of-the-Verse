@@ -1,0 +1,418 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-SpawnConditions-Easy</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [ChanceCeiling:250]
+
+        [SpaceCargoShip:true]
+        [SpaceCargoShipChance:250]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:10]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:40]
+
+        [FactionOwner:REAVER]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:333]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-SpawnConditions-Medium</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [ChanceCeiling:250]
+
+        [SpaceCargoShip:true]
+        [SpaceCargoShipChance:250]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:3]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:20]
+
+        [FactionOwner:REAVER]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:666]
+
+      </Description>
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-SpawnConditions-MediumGroup</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [ChanceCeiling:250]
+
+        [SpaceCargoShip:true]
+        [SpaceCargoShipChance:250]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:3]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:20]
+
+        [FactionOwner:REAVER]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:666]
+
+        [PrefabSpawningMode:RandomSelectedIndexes]
+        [PrefabIndexGroupNames:First]
+        [PrefabIndexGroupValues:0]
+        [PrefabIndexGroupNames:First]
+        [PrefabIndexGroupValues:1]
+        [PrefabIndexGroupNames:Second]
+        [PrefabIndexGroupValues:2]
+        [PrefabIndexGroupNames:Second]
+        [PrefabIndexGroupValues:3]
+        [PrefabIndexGroupNames:Second]
+        [PrefabIndexGroupValues:4]
+        [PrefabOffsetOverrides:{X:100 Y:100 Z:100}]
+        [PrefabOffsetOverrides:{X:-100 Y:-100 Z:-100}]
+
+      </Description>
+
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-SpawnConditions-MediumHover</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [ChanceCeiling:250]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:25]
+        [CargoShipTerrainPath:true]
+        [CustomPathStartAltitude:50]
+        [CustomPathEndAltitude:50]
+
+        [FactionOwner:REAVER]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:666]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-SpawnConditions-Hard</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [ChanceCeiling:250]
+
+        [SpaceCargoShip:true]
+        [SpaceCargoShipChance:250]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
+
+        [FactionOwner:REAVER]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:999]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-SpawnConditions-HardGroup</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [ChanceCeiling:250]
+
+        [SpaceCargoShip:true]
+        [SpaceCargoShipChance:250]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
+
+        [FactionOwner:REAVER]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:999]
+
+        [PrefabSpawningMode:RandomSelectedIndexes]
+        [PrefabIndexGroupNames:First]
+        [PrefabIndexGroupValues:0]
+        [PrefabIndexGroupNames:First]
+        [PrefabIndexGroupValues:1]
+        [PrefabIndexGroupNames:Second]
+        [PrefabIndexGroupValues:2]
+        [PrefabIndexGroupNames:Second]
+        [PrefabIndexGroupValues:3]
+        [PrefabOffsetOverrides:{X:200 Y:0 Z:200}]
+        [PrefabOffsetOverrides:{X:-200 Y:0 Z:-200}]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-SpawnConditions-VeryHard</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [ChanceCeiling:275]
+
+        [SpaceCargoShip:true]
+        [SpaceCargoShipChance:275]
+
+        [AtmosphericCargoShip:true]
+        [AtmosphericCargoShipChance:1]
+        [SkipAirDensityCheck:true]
+
+        [GravityCargoShip:true]
+        [GravityCargoShipChance:10]
+
+        [FactionOwner:REAVER]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:1500]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-SpawnConditions-Boss</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [BossEncounterAny:true]
+        [BossCustomGPSLabel:Dangerous Reaver Encounter]
+
+        [FactionOwner:REAVER]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:2000]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-PersistentSpawnConditions-Environment-2G</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [MaxGravity:2]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-PersistentSpawnConditions-Environment-1.9G</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [MaxGravity:1.9]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-PersistentSpawnConditions-Environment-1.5G</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [MaxGravity:1.5]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-PersistentSpawnConditions-Environment-1.4G</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [MaxGravity:1.4]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-PersistentSpawnConditions-Environment-1.3G</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [MaxGravity:1.3]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-PersistentSpawnConditions-Environment-1.1G</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [MaxGravity:1.1]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-PersistentSpawnConditions-Environment-1G</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [MaxGravity:1]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-PersistentSpawnConditions-Environment-0.8G</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [MaxGravity:0.8]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-PersistentSpawnConditions-Environment-0.6G</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [MaxGravity:0.6]
+
+      </Description>
+
+    </EntityComponent>
+    
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-PersistentSpawnConditions-Environment-0.2G</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [MaxGravity:0.2]
+
+      </Description>
+
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>
