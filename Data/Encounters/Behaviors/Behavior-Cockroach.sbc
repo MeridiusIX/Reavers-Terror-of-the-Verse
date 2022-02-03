@@ -20,7 +20,7 @@
         [OverrideTargetData:Reaver-Target-Main-B]
 
         [EngageOnTargetLineOfSight:true]
-        [UseBarrageFire:true]
+        [WeaponSystem:Reaver-Weapons-Standard]
 
         [Triggers:Reaver-Trigger-GrindDamage]
         [Triggers:Reaver-Trigger-LargeHarpoon]

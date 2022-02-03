@@ -6,17 +6,17 @@
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>124413011337825024</EntityId>
+          <EntityId>131688769730854812</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="0" y="0" z="0" />
-            <Forward x="-0.150397688" y="-0.748491168" z="0.645864666" />
-            <Up x="-0.9756141" y="0.0067256093" z="-0.219389766" />
+            <Position x="52.090123553103695" y="31.262440348209566" z="69.2756417658602" />
+            <Forward x="0.156164557" y="0.9861045" z="0.05666244" />
+            <Up x="-0.444316864" y="0.121367067" z="-0.8876107" />
             <Orientation>
-              <X>0.6706353</X>
-              <Y>-0.6108852</Y>
-              <Z>-0.216530681</Z>
-              <W>-0.360807538</W>
+              <X>-0.115262233</X>
+              <Y>0.7176669</Y>
+              <Z>-0.6527105</Z>
+              <W>-0.213629946</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -24,7 +24,7 @@
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
               <SubtypeName>SmallBlockCockpitIndustrial</SubtypeName>
-              <EntityId>128284398757930936</EntityId>
+              <EntityId>128581484008006676</EntityId>
               <Min x="-1" y="-1" z="-1" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -64,10 +64,16 @@
                 <Slots />
                 <SlotsGamepad />
               </BuildToolbar>
+              <OnLockedToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </OnLockedToolbar>
               <PilotRelativeWorld>
                 <Position x="-0.035232122987508774" y="0.804926872253418" z="-2.6926939487457275" />
-                <Forward x="0.3139834" y="0.3712673" z="0.8738275" />
-                <Up x="-0.174062356" y="-0.8822627" z="0.437395155" />
+                <Forward x="0.3139835" y="0.371267378" z="0.873827755" />
+                <Up x="-0.174062371" y="-0.8822628" z="0.437395245" />
                 <Orientation>
                   <X>0.960394</X>
                   <Y>-0.120653018</Y>
@@ -349,6 +355,11 @@
                   </Sprites>
                 </MySerializedTextPanelData>
               </TextPanels>
+              <TargetData>
+                <TargetId>0</TargetId>
+                <IsTargetLocked>false</IsTargetLocked>
+                <LockingProgress>0</LockingProgress>
+              </TargetData>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
@@ -420,7 +431,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName />
-              <EntityId>107416759373836819</EntityId>
+              <EntityId>91802396009642642</EntityId>
               <Min x="-3" y="1" z="-1" />
               <ColorMaskHSV x="0.008333334" y="0.2" z="-0.01" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -454,6 +465,7 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
+                <RemainingAmmo>140</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
                 <LastShootTime>0</LastShootTime>
@@ -461,7 +473,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
               <SubtypeName>SmallHydrogenTank</SubtypeName>
-              <EntityId>88097828237152502</EntityId>
+              <EntityId>114966958104661777</EntityId>
               <Min x="-8" y="-1" z="0" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -491,12 +503,12 @@
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
               <IsStockpiling>false</IsStockpiling>
-              <FilledRatio>0.222215608</FilledRatio>
+              <FilledRatio>1</FilledRatio>
               <AutoRefill>false</AutoRefill>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallShipConveyorHub</SubtypeName>
-              <EntityId>109448713292794068</EntityId>
+              <EntityId>140378962095212838</EntityId>
               <Min x="-7" y="0" z="5" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -504,7 +516,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
               <SubtypeName>SmallHydrogenTank</SubtypeName>
-              <EntityId>108423958911101475</EntityId>
+              <EntityId>74948506779397538</EntityId>
               <Min x="-8" y="-1" z="8" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -534,58 +546,76 @@
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
               <IsStockpiling>false</IsStockpiling>
-              <FilledRatio>0.222215608</FilledRatio>
+              <FilledRatio>1</FilledRatio>
               <AutoRefill>false</AutoRefill>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>138850739599919168</EntityId>
+              <EntityId>98431586009461839</EntityId>
               <Min x="-4" y="1" z="5" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>126854439985955277</EntityId>
+              <EntityId>85560829179841272</EntityId>
               <Min x="-4" y="1" z="6" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>110174162618538414</EntityId>
+              <EntityId>126010838514868939</EntityId>
               <Min x="-4" y="1" z="7" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>140835986167200045</EntityId>
+              <EntityId>119119017906626375</EntityId>
               <Min x="-8" y="1" z="5" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>95180689611990926</EntityId>
+              <EntityId>132876719513881668</EntityId>
               <Min x="-8" y="1" z="6" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>106849765895868123</EntityId>
+              <EntityId>86136591896094764</EntityId>
               <Min x="-8" y="1" z="7" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>78618264669081320</EntityId>
+              <EntityId>89904583904093694</EntityId>
               <Min x="-8" y="2" z="5" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -595,11 +625,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>129651346870987713</EntityId>
+              <EntityId>97320396826537204</EntityId>
               <Min x="-8" y="2" z="6" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 2</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -609,11 +657,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>100637065717925965</EntityId>
+              <EntityId>141315203628803875</EntityId>
               <Min x="-8" y="2" z="7" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 3</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -623,11 +689,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>139826939221689735</EntityId>
+              <EntityId>77297372659913801</EntityId>
               <Min x="-9" y="1" z="5" />
               <BlockOrientation Forward="Left" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 4</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -637,11 +721,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>134486641395343613</EntityId>
+              <EntityId>75862912373008429</EntityId>
               <Min x="-9" y="1" z="6" />
               <BlockOrientation Forward="Left" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 5</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -651,11 +753,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>95077248288749199</EntityId>
+              <EntityId>76621476738755340</EntityId>
               <Min x="-9" y="1" z="7" />
               <BlockOrientation Forward="Left" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 6</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -665,11 +785,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>113910781232749249</EntityId>
+              <EntityId>88770568601361358</EntityId>
               <Min x="-8" y="0" z="5" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 7</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -679,11 +817,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>142380124898323944</EntityId>
+              <EntityId>77186745616666479</EntityId>
               <Min x="-8" y="0" z="6" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 8</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -693,11 +849,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>112736460167992186</EntityId>
+              <EntityId>133878883961601242</EntityId>
               <Min x="-8" y="0" z="7" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 9</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -707,11 +881,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>92177629946977002</EntityId>
+              <EntityId>136575697304275737</EntityId>
               <Min x="-4" y="0" z="5" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 10</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -721,11 +913,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>94977239287863411</EntityId>
+              <EntityId>136922866749278980</EntityId>
               <Min x="-4" y="0" z="6" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 11</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -735,11 +945,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>92250292407371531</EntityId>
+              <EntityId>138877846356995436</EntityId>
               <Min x="-4" y="0" z="7" />
               <BlockOrientation Forward="Down" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 12</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -749,11 +977,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>74234884447501053</EntityId>
+              <EntityId>92701761695242200</EntityId>
               <Min x="-3" y="1" z="7" />
               <BlockOrientation Forward="Right" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 13</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -763,11 +1009,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>94481545923458186</EntityId>
+              <EntityId>77046742142771071</EntityId>
               <Min x="-3" y="1" z="6" />
               <BlockOrientation Forward="Right" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 14</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -777,11 +1041,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>122222077073482918</EntityId>
+              <EntityId>123814904433330089</EntityId>
               <Min x="-3" y="1" z="5" />
               <BlockOrientation Forward="Right" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 15</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -791,11 +1073,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>97841305698779138</EntityId>
+              <EntityId>141160089318631189</EntityId>
               <Min x="-4" y="2" z="7" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 16</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -805,11 +1105,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>108748351111725522</EntityId>
+              <EntityId>94591333375275485</EntityId>
               <Min x="-4" y="2" z="6" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 17</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -819,11 +1137,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>131777380585260049</EntityId>
+              <EntityId>86225820337769666</EntityId>
               <Min x="-4" y="2" z="5" />
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Hydrogen Thruster 18</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -833,10 +1169,28 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockLargeHydrogenThrust</SubtypeName>
-              <EntityId>100600990021972663</EntityId>
+              <EntityId>131741008864022172</EntityId>
               <Min x="-7" y="0" z="-3" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Large Hydrogen Thruster</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -846,11 +1200,29 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockLargeHydrogenThrust</SubtypeName>
-              <EntityId>78206282018480583</EntityId>
+              <EntityId>131119004050881824</EntityId>
               <Min x="-7" y="0" z="13" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <CustomName>Large Hydrogen Thruster 3</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -860,7 +1232,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
               <SubtypeName>OxygenGeneratorSmall</SubtypeName>
-              <EntityId>99284521124588696</EntityId>
+              <EntityId>137369751511093098</EntityId>
               <Min x="-7" y="3" z="5" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -872,13 +1244,27 @@
                     <TypeId>MyInventoryBase</TypeId>
                     <Component xsi:type="MyObjectBuilder_Inventory">
                       <Items />
-                      <nextItemId>1</nextItemId>
+                      <nextItemId>0</nextItemId>
                       <Volume>1</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
                       <Size xsi:nil="true" />
                       <InventoryFlags>CanReceive</InventoryFlags>
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>230</FramesFromLastTrigger>
+                      <TimerTickInFrames>300</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
                   </ComponentData>
                 </Components>
@@ -892,7 +1278,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
               <SubtypeName>OxygenGeneratorSmall</SubtypeName>
-              <EntityId>87920248557073505</EntityId>
+              <EntityId>106528576137984118</EntityId>
               <Min x="-7" y="-2" z="5" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -904,13 +1290,27 @@
                     <TypeId>MyInventoryBase</TypeId>
                     <Component xsi:type="MyObjectBuilder_Inventory">
                       <Items />
-                      <nextItemId>1</nextItemId>
+                      <nextItemId>0</nextItemId>
                       <Volume>1</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
                       <Size xsi:nil="true" />
                       <InventoryFlags>CanReceive</InventoryFlags>
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>230</FramesFromLastTrigger>
+                      <TimerTickInFrames>300</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
                   </ComponentData>
                 </Components>
@@ -1008,7 +1408,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ReflectorLight">
               <SubtypeName>SmallBlockFrontLight</SubtypeName>
-              <EntityId>79685224907614316</EntityId>
+              <EntityId>141321119865543029</EntityId>
               <Min x="4" y="1" z="-2" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1036,7 +1436,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>109642679617136411</EntityId>
+              <EntityId>117715144354083100</EntityId>
               <Min x="4" y="1" z="-1" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1049,7 +1449,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallMissileLauncherReload">
               <SubtypeName>SmallRocketLauncherReload</SubtypeName>
-              <EntityId>117901557021689647</EntityId>
+              <EntityId>118088245108388922</EntityId>
               <Min x="3" y="0" z="1" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1091,7 +1491,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LargeGatlingTurret">
               <SubtypeName>SmallGatlingTurret</SubtypeName>
-              <EntityId>127039330616083346</EntityId>
+              <EntityId>129445399892858406</EntityId>
               <Min x="4" y="-1" z="0" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -1110,6 +1510,20 @@
                       <Size xsi:nil="true" />
                       <InventoryFlags>CanReceive</InventoryFlags>
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>10</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
                   </ComponentData>
                 </Components>
@@ -1139,10 +1553,14 @@
               <EnableIdleRotation>true</EnableIdleRotation>
               <PreviousIdleRotationState>true</PreviousIdleRotationState>
               <TargetCharacters>true</TargetCharacters>
+              <TargetingGroup />
+              <Flags>
+                <TargetCharacters>true</TargetCharacters>
+              </Flags>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName />
-              <EntityId>118747672571941672</EntityId>
+              <EntityId>85434232933318915</EntityId>
               <Min x="4" y="2" z="-4" />
               <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -1177,6 +1595,7 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
+                <RemainingAmmo>140</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
                 <LastShootTime>0</LastShootTime>
@@ -1184,7 +1603,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName />
-              <EntityId>134182116662110288</EntityId>
+              <EntityId>94034775774126041</EntityId>
               <Min x="4" y="0" z="-4" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -1219,6 +1638,7 @@
               <MinFov>0.1</MinFov>
               <MaxFov>1.04719758</MaxFov>
               <GunBase>
+                <RemainingAmmo>140</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
                 <LastShootTime>0</LastShootTime>
@@ -1275,7 +1695,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>144063084651124078</EntityId>
+              <EntityId>80323320737182805</EntityId>
               <Min x="-8" y="1" z="-1" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -1290,7 +1710,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>130882811633760646</EntityId>
+              <EntityId>138538077364045301</EntityId>
               <Min x="-4" y="1" z="-1" />
               <BlockOrientation Forward="Down" Up="Forward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -1305,7 +1725,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
               <SubtypeName>SmallBlockRemoteControl</SubtypeName>
-              <EntityId>132430649477980259</EntityId>
+              <EntityId>139947554947219429</EntityId>
               <Min x="0" y="1" z="3" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1329,6 +1749,13 @@
                 <Slots />
                 <SlotsGamepad />
               </BuildToolbar>
+              <OnLockedToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </OnLockedToolbar>
+              <IsTargetLockingEnabled>false</IsTargetLockingEnabled>
               <PreviousControlledEntityId xsi:nil="true" />
               <AutoPilotEnabled>false</AutoPilotEnabled>
               <FlightMode>0</FlightMode>
@@ -1346,7 +1773,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>76855883955912609</EntityId>
+              <EntityId>103941214021320069</EntityId>
               <Min x="1" y="1" z="3" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1357,7 +1784,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1366,7 +1793,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>130615882604742183</EntityId>
+              <EntityId>73837878172527303</EntityId>
               <Min x="-1" y="1" z="3" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1377,7 +1804,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1386,7 +1813,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>91582991712846099</EntityId>
+              <EntityId>122289193836329443</EntityId>
               <Min x="-6" y="4" z="8" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1397,7 +1824,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1406,7 +1833,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>135248947688117016</EntityId>
+              <EntityId>122163734267843058</EntityId>
               <Min x="-6" y="4" z="9" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1417,7 +1844,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1426,7 +1853,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>110357674387346110</EntityId>
+              <EntityId>139710652488942402</EntityId>
               <Min x="-6" y="4" z="4" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1437,7 +1864,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1446,7 +1873,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>95081707683693927</EntityId>
+              <EntityId>77187633904686291</EntityId>
               <Min x="-6" y="4" z="3" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1457,7 +1884,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1466,7 +1893,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>76542471773301136</EntityId>
+              <EntityId>96048619213761081</EntityId>
               <Min x="-6" y="-2" z="8" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1477,7 +1904,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1486,7 +1913,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>119775140003628282</EntityId>
+              <EntityId>129637697983650507</EntityId>
               <Min x="-6" y="-2" z="9" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1497,7 +1924,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1506,7 +1933,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>116939598055455525</EntityId>
+              <EntityId>111711898133613943</EntityId>
               <Min x="-6" y="-2" z="4" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1517,7 +1944,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1526,7 +1953,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>72920983287106168</EntityId>
+              <EntityId>138264151089924808</EntityId>
               <Min x="-6" y="-2" z="3" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1537,7 +1964,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1791,7 +2218,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>142400190622128321</EntityId>
+              <EntityId>103263499712980543</EntityId>
               <Min x="4" y="1" z="6" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1802,7 +2229,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1811,7 +2238,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-              <EntityId>116698023628756354</EntityId>
+              <EntityId>136311445072241069</EntityId>
               <Min x="4" y="1" z="5" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
@@ -1822,7 +2249,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0</CurrentStoredPower>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -2054,7 +2481,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallWindow1x2Slope</SubtypeName>
-              <EntityId>101453619694303259</EntityId>
+              <EntityId>85828738536975687</EntityId>
               <Min x="0" y="1" z="-2" />
               <IntegrityPercent>0.5</IntegrityPercent>
               <BuildPercent>0.5</BuildPercent>
@@ -2064,7 +2491,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallWindow1x2Slope</SubtypeName>
-              <EntityId>73067422160012681</EntityId>
+              <EntityId>111476571584126621</EntityId>
               <Min x="0" y="-1" z="-2" />
               <IntegrityPercent>0.5</IntegrityPercent>
               <BuildPercent>0.5</BuildPercent>
@@ -2074,7 +2501,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallWindow1x2Flat</SubtypeName>
-              <EntityId>103196360373668544</EntityId>
+              <EntityId>83513306474157998</EntityId>
               <Min x="-2" y="1" z="-1" />
               <IntegrityPercent>0.6666667</IntegrityPercent>
               <BuildPercent>0.6666667</BuildPercent>
@@ -2084,7 +2511,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallWindow1x2Flat</SubtypeName>
-              <EntityId>128259204382160065</EntityId>
+              <EntityId>143849692516018654</EntityId>
               <Min x="2" y="1" z="-1" />
               <IntegrityPercent>0.6666667</IntegrityPercent>
               <BuildPercent>0.6666667</BuildPercent>
@@ -2094,7 +2521,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorAdvancedStator">
               <SubtypeName>SmallHinge</SubtypeName>
-              <EntityId>127349851005296235</EntityId>
+              <EntityId>139464470081740518</EntityId>
               <Min x="0" y="3" z="2" />
               <BlockOrientation Forward="Backward" Up="Left" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -2106,7 +2533,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>false</Enabled>
-              <TopBlockId>99654687145319792</TopBlockId>
+              <TopBlockId>120897701859381173</TopBlockId>
               <ShareInertiaTensor>false</ShareInertiaTensor>
               <SafetyDetach>5</SafetyDetach>
               <RotorEntityId xsi:nil="true" />
@@ -2114,7 +2541,7 @@
               <TargetVelocity>0</TargetVelocity>
               <MinAngle>0.7853982</MinAngle>
               <MaxAngle>0.7853982</MaxAngle>
-              <CurrentAngle>0.785919845</CurrentAngle>
+              <CurrentAngle>0.7853982</CurrentAngle>
               <LimitsActive>false</LimitsActive>
               <RotorLock>true</RotorLock>
               <Torque>448000</Torque>
@@ -2122,7 +2549,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
               <SubtypeName>SmallWarhead</SubtypeName>
-              <EntityId>96435315986888913</EntityId>
+              <EntityId>97669465186026581</EntityId>
               <Min x="0" y="1" z="4" />
               <BlockOrientation Forward="Left" Up="Backward" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -2145,7 +2572,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
               <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
-              <EntityId>75236346894143497</EntityId>
+              <EntityId>130516928083159557</EntityId>
               <Min x="0" y="0" z="4" />
               <BlockOrientation Forward="Backward" Up="Up" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -2287,7 +2714,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorAdvancedStator">
               <SubtypeName>SmallHinge</SubtypeName>
-              <EntityId>136581574106980477</EntityId>
+              <EntityId>99700453352442590</EntityId>
               <Min x="0" y="-2" z="1" />
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -2299,7 +2726,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>false</Enabled>
-              <TopBlockId>132147148670295237</TopBlockId>
+              <TopBlockId>128469367799158311</TopBlockId>
               <ShareInertiaTensor>false</ShareInertiaTensor>
               <SafetyDetach>5</SafetyDetach>
               <RotorEntityId xsi:nil="true" />
@@ -2307,7 +2734,7 @@
               <TargetVelocity>0</TargetVelocity>
               <MinAngle>0.7853982</MinAngle>
               <MaxAngle>0.7853982</MaxAngle>
-              <CurrentAngle>0.786229253</CurrentAngle>
+              <CurrentAngle>0.7853982</CurrentAngle>
               <LimitsActive>false</LimitsActive>
               <RotorLock>true</RotorLock>
               <Torque>448000</Torque>
@@ -2355,18 +2782,73 @@
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
-              <Min x="-6" y="5" z="4" />
-              <BlockOrientation Forward="Backward" Up="Up" />
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LargeGatlingTurret">
+              <SubtypeName>AutoCannonTurret</SubtypeName>
+              <EntityId>99350676788624801</EntityId>
+              <Min x="-8" y="5" z="4" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
-              <Min x="-6" y="5" z="8" />
-              <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.072</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>10</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <IsShooting>false</IsShooting>
+              <IsShootingFromTerminal>false</IsShootingFromTerminal>
+              <IsLargeTurret>true</IsLargeTurret>
+              <MinFov>0.1</MinFov>
+              <MaxFov>1.04719758</MaxFov>
+              <RemainingAmmo>30</RemainingAmmo>
+              <Target>0</Target>
+              <IsPotentialTarget>true</IsPotentialTarget>
+              <PreviousControlledEntityId xsi:nil="true" />
+              <Rotation>0</Rotation>
+              <Elevation>0</Elevation>
+              <GunBase>
+                <RemainingAmmo>30</RemainingAmmo>
+                <CurrentAmmoMagazineName>AutocannonClip</CurrentAmmoMagazineName>
+                <RemainingAmmosList />
+                <LastShootTime>0</LastShootTime>
+              </GunBase>
+              <EnableIdleRotation>true</EnableIdleRotation>
+              <PreviousIdleRotationState>true</PreviousIdleRotationState>
+              <TargetCharacters>true</TargetCharacters>
+              <TargetingGroup />
+              <Flags>
+                <TargetCharacters>true</TargetCharacters>
+              </Flags>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
@@ -2683,7 +3165,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LargeGatlingTurret">
               <SubtypeName>SmallGatlingTurret</SubtypeName>
-              <EntityId>105577823490175762</EntityId>
+              <EntityId>118656261602071739</EntityId>
               <Min x="-14" y="-1" z="0" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -2702,6 +3184,20 @@
                       <Size xsi:nil="true" />
                       <InventoryFlags>CanReceive</InventoryFlags>
                       <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>10</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
                   </ComponentData>
                 </Components>
@@ -2731,6 +3227,10 @@
               <EnableIdleRotation>true</EnableIdleRotation>
               <PreviousIdleRotationState>true</PreviousIdleRotationState>
               <TargetCharacters>true</TargetCharacters>
+              <TargetingGroup />
+              <Flags>
+                <TargetCharacters>true</TargetCharacters>
+              </Flags>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
@@ -2864,27 +3364,47 @@
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ReflectorLight">
-              <SubtypeName>SmallBlockFrontLight</SubtypeName>
-              <EntityId>90831330731746120</EntityId>
-              <Min x="-10" y="1" z="-1" />
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallMissileLauncher">
+              <SubtypeName>SmallBlockMediumCalibreGun</SubtypeName>
+              <EntityId>106601181959284728</EntityId>
+              <Min x="-10" y="1" z="-9" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
-              <CustomName>Spotlight 2</CustomName>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.09</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <Radius>10</Radius>
-              <ReflectorRadius>120</ReflectorRadius>
-              <Falloff>1.5</Falloff>
-              <Intensity>3</Intensity>
-              <BlinkIntervalSeconds>0</BlinkIntervalSeconds>
-              <BlinkLenght>10</BlinkLenght>
-              <BlinkOffset>0</BlinkOffset>
-              <Offset>0.5</Offset>
-              <RotationSpeed>0.08</RotationSpeed>
+              <IsShooting>false</IsShooting>
+              <IsShootingFromTerminal>false</IsShootingFromTerminal>
+              <IsLargeTurret>false</IsLargeTurret>
+              <MinFov>0.1</MinFov>
+              <MaxFov>1.04719758</MaxFov>
+              <UseConveyorSystem>false</UseConveyorSystem>
+              <GunBase>
+                <RemainingAmmo>1</RemainingAmmo>
+                <CurrentAmmoMagazineName>MediumCalibreAmmo</CurrentAmmoMagazineName>
+                <RemainingAmmosList />
+                <LastShootTime>0</LastShootTime>
+              </GunBase>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorCorner</SubtypeName>
@@ -3156,7 +3676,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Ladder2">
               <SubtypeName>LadderSmall</SubtypeName>
-              <EntityId>122885305517056466</EntityId>
+              <EntityId>115672468426780287</EntityId>
               <Min x="-14" y="0" z="10" />
               <BlockOrientation Forward="Left" Up="Forward" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -3592,39 +4112,74 @@
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
-              <Min x="-6" y="-3" z="8" />
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LargeGatlingTurret">
+              <SubtypeName>AutoCannonTurret</SubtypeName>
+              <EntityId>93938186867419311</EntityId>
+              <Min x="-8" y="-6" z="4" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
               <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
-              <Min x="-6" y="-3" z="4" />
-              <BlockOrientation Forward="Backward" Up="Down" />
-              <ColorMaskHSV x="0.008333334" y="0.2" z="-0.01" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallWindow3x3Flat</SubtypeName>
-              <EntityId>97293625937617810</EntityId>
-              <Min x="-7" y="5" z="5" />
-              <IntegrityPercent>0.5714286</IntegrityPercent>
-              <BuildPercent>0.5714286</BuildPercent>
-              <BlockOrientation Forward="Forward" Up="Right" />
-              <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallWindow3x3Flat</SubtypeName>
-              <EntityId>100893392916913147</EntityId>
-              <Min x="-7" y="-3" z="5" />
-              <IntegrityPercent>0.5714286</IntegrityPercent>
-              <BuildPercent>0.5714286</BuildPercent>
-              <BlockOrientation Forward="Forward" Up="Left" />
-              <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
-              <SkinSubtypeId>Rusty_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.072</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>10</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <IsShooting>false</IsShooting>
+              <IsShootingFromTerminal>false</IsShootingFromTerminal>
+              <IsLargeTurret>true</IsLargeTurret>
+              <MinFov>0.1</MinFov>
+              <MaxFov>1.04719758</MaxFov>
+              <RemainingAmmo>30</RemainingAmmo>
+              <Target>0</Target>
+              <IsPotentialTarget>true</IsPotentialTarget>
+              <PreviousControlledEntityId xsi:nil="true" />
+              <Rotation>0</Rotation>
+              <Elevation>0</Elevation>
+              <GunBase>
+                <RemainingAmmo>30</RemainingAmmo>
+                <CurrentAmmoMagazineName>AutocannonClip</CurrentAmmoMagazineName>
+                <RemainingAmmosList />
+                <LastShootTime>0</LastShootTime>
+              </GunBase>
+              <EnableIdleRotation>true</EnableIdleRotation>
+              <PreviousIdleRotationState>true</PreviousIdleRotationState>
+              <TargetCharacters>true</TargetCharacters>
+              <TargetingGroup />
+              <Flags>
+                <TargetCharacters>true</TargetCharacters>
+              </Flags>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
@@ -3754,7 +4309,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>122357495057789737</EntityId>
+              <EntityId>93337424414186469</EntityId>
               <Min x="-1" y="-1" z="3" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -3769,7 +4324,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>85019760237702809</EntityId>
+              <EntityId>133844152937360184</EntityId>
               <Min x="1" y="-1" z="3" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -3784,7 +4339,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
               <SubtypeName>SmallWarhead</SubtypeName>
-              <EntityId>128047108036408510</EntityId>
+              <EntityId>79901800443939386</EntityId>
               <Min x="2" y="1" z="2" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -3801,7 +4356,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
               <SubtypeName>SmallWarhead</SubtypeName>
-              <EntityId>81811033160036234</EntityId>
+              <EntityId>107592627392067341</EntityId>
               <Min x="-9" y="1" z="2" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -3818,7 +4373,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
               <SubtypeName>SmallWarhead</SubtypeName>
-              <EntityId>78637126742052411</EntityId>
+              <EntityId>88945531683966620</EntityId>
               <Min x="-9" y="1" z="10" />
               <BlockOrientation Forward="Forward" Up="Left" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -3835,7 +4390,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
               <SubtypeName>SmallWarhead</SubtypeName>
-              <EntityId>110578763195144496</EntityId>
+              <EntityId>76026455784272465</EntityId>
               <Min x="-3" y="1" z="10" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
@@ -4172,28 +4727,34 @@
               <Sections />
               <ConveyorLineType>SMALL_LINE</ConveyorLineType>
             </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="-10" y="1" z="0" />
+              <StartDirection>Forward</StartDirection>
+              <EndPosition x="-10" y="1" z="-1" />
+              <EndDirection>Backward</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
           </ConveyorLines>
           <DisplayName>(NPC-RVR) Slayer</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
-          <CreatePhysics>false</CreatePhysics>
-          <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>
           <TargetingTargets />
         </CubeGrid>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>89176351421858029</EntityId>
+          <EntityId>75629544331402076</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="-1.314453125" y="0.7587890625" z="-0.9755859375" />
-            <Forward x="0.796506" y="0.524254858" z="-0.3012227" />
-            <Up x="-0.1599727" y="0.6631639" z="0.7311788" />
+            <Position x="51.267484087771663" y="30.45838608795566" z="67.887561168936372" />
+            <Forward x="0.203843087" y="-0.782972932" z="0.5877084" />
+            <Up x="0.8821538" y="-0.113437" z="-0.457095861" />
             <Orientation>
-              <X>0.393286616</X>
-              <Y>-0.441264421</Y>
-              <Z>-0.117233537</Z>
-              <W>0.798039854</W>
+              <X>0.728990257</X>
+              <Y>0.512276769</Y>
+              <Z>0.159033746</Z>
+              <W>-0.425269365</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -4201,13 +4762,13 @@
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorAdvancedRotor">
               <SubtypeName>SmallHingeHead</SubtypeName>
-              <EntityId>99654687145319792</EntityId>
-              <ParentEntityId>108415320419791921</ParentEntityId>
+              <EntityId>120897701859381173</EntityId>
+              <ParentEntityId>139464470081740518</ParentEntityId>
               <YieldLastComponent>false</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>98851027298215404</EntityId>
+              <EntityId>120078155259966208</EntityId>
               <Min x="-1" y="0" z="0" />
               <BlockOrientation Forward="Up" Up="Right" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -4341,25 +4902,23 @@
           </CubeBlocks>
           <DisplayName>Small Grid 4653</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
-          <CreatePhysics>false</CreatePhysics>
-          <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>
           <TargetingTargets />
         </CubeGrid>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>104242975001049931</EntityId>
+          <EntityId>93017725892994476</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="1.05078125" y="0.3671875" z="-0.103515625" />
-            <Forward x="-0.5841855" y="0.5335899" z="-0.611562848" />
-            <Up x="0.159861952" y="-0.663099647" z="-0.7312613" />
+            <Position x="52.456357378787288" y="30.64802231842441" z="70.1349175837313" />
+            <Forward x="-0.424672335" y="-0.6112002" z="-0.66789794" />
+            <Up x="-0.8821536" y="0.113437146" z="0.4570961" />
             <Orientation>
-              <X>0.252891272</X>
-              <Y>-0.36092183</Y>
-              <Z>0.876125455</Z>
-              <W>-0.195411444</W>
+              <X>-0.06134358</X>
+              <Y>0.402849853</Y>
+              <Z>0.662961841</Z>
+              <W>0.628037035</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -4367,13 +4926,13 @@
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorAdvancedRotor">
               <SubtypeName>SmallHingeHead</SubtypeName>
-              <EntityId>132147148670295237</EntityId>
-              <ParentEntityId>143062679797706390</ParentEntityId>
+              <EntityId>128469367799158311</EntityId>
+              <ParentEntityId>99700453352442590</ParentEntityId>
               <YieldLastComponent>false</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorSide</SubtypeName>
-              <EntityId>131778634617988765</EntityId>
+              <EntityId>133552530198075342</EntityId>
               <Min x="-1" y="0" z="0" />
               <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.008333334" y="-0.73" z="-0.17" />
@@ -4506,8 +5065,6 @@
           </CubeBlocks>
           <DisplayName>Small Grid 8918</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
-          <CreatePhysics>false</CreatePhysics>
-          <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>
           <TargetingTargets />

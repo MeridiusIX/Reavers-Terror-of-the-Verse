@@ -30,7 +30,9 @@
 
         [UseBlockReplacerProfile:true]
         [IgnoreGlobalBlockReplacer:true]
-        [BlockReplacerProfileNames:MES-NpcThrusters-Ion,MES-NpcThrusters-Atmo,MES-NpcThrusters-Hydro]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+        [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
 
         [ConfigureSpecialNpcThrusters:true]
         [RestrictNpcIonThrust:true]

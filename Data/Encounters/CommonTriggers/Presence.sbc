@@ -54,6 +54,7 @@
         [SendSelfAsTargetEntityId:true]
         [SingleRecipient:false]
         [MatchSenderReceiverOwners:false]
+        [IgnoreReceiverAntennaRequirement:true]
 
       </Description>
 

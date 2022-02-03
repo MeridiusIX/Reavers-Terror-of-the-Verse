@@ -25,8 +25,9 @@
         [TriggerGroups:Reaver-TriggerGroup-Common]
         [Triggers:Reaver-Trigger-ScreamBroadcast]
         [Triggers:Reaver-Trigger-Havelock]
+        [Triggers:Reaver-Trigger-JumpChase]
 
-        [UseBarrageFire:true]
+        [WeaponSystem:Reaver-Weapons-Standard]
 
       </Description>
 

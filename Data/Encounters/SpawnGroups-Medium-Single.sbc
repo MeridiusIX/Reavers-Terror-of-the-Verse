@@ -307,6 +307,40 @@
       </Prefabs>
     </SpawnGroup>
 
+    <!--Piercer-->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Reaver-SpawnGroup-Piercer</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [PersistentConditions:Reaver-PersistentSpawnConditions-Environment-1.1G]
+        [SpawnConditionsProfiles:Reaver-SpawnConditions-Medium]
+
+        [ManipulationProfiles:Reaver-Manipulation-Common]
+        [ManipulationProfiles:Reaver-Manipulation-Thrust]
+        [ManipulationProfiles:Reaver-Manipulation-PaintAndBuildStates]
+
+        [ReplenishSystems:true]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Piercer">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>Reaver-Behavior-MediumShip</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
 
   </SpawnGroups>
 </Definitions>

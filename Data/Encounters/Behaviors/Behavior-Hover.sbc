@@ -22,7 +22,7 @@
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
 
-        [UseBarrageFire:true]
+        [WeaponSystem:Reaver-Weapons-Standard]
 
         [Triggers:Reaver-Trigger-GrindDamageHover]
         [TriggerGroups:Reaver-TriggerGroup-Common-B]

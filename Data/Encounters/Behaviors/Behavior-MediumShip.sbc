@@ -22,7 +22,7 @@
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
 
-        [UseBarrageFire:true]
+        [WeaponSystem:Reaver-Weapons-Standard]
 
         [Triggers:Reaver-Trigger-GrindDamage]
         [Triggers:Reaver-Trigger-ScreamBroadcast]
@@ -87,7 +87,7 @@
         [StrafeMinCooldownMs:2000]
         [StrafeMaxCooldownMs:5000]
 
-        [StrafeMinimumTargetDistance:400]
+        [StrafeMinimumTargetDistance:500]
         [StrafeSpeedCutOff:60]
         [StrafeDistanceCutOff:150]
 

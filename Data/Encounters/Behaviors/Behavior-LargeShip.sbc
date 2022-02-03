@@ -24,8 +24,12 @@
 
         [TriggerGroups:Reaver-TriggerGroup-Common]
         [Triggers:Reaver-Trigger-ScreamBroadcast]
+        [Triggers:Reaver-Trigger-JumpChase]
+        [Triggers:Reaver-Trigger-JumpAlertA]
+        [Triggers:Reaver-Trigger-JumpAlertB]
+        [Triggers:Reaver-Trigger-JumpComplete]
 
-        [UseBarrageFire:true]
+        [WeaponSystem:Reaver-Weapons-Standard]
 
       </Description>
 
@@ -89,7 +93,7 @@
         [StrafeMinCooldownMs:6000]
         [StrafeMaxCooldownMs:10000]
 
-        [StrafeMinimumTargetDistance:500]
+        [StrafeMinimumTargetDistance:600]
         [StrafeSpeedCutOff:60]
         [StrafeDistanceCutOff:150]
 

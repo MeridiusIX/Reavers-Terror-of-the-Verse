@@ -205,6 +205,8 @@
         [PrefabIndexGroupValues:2]
         [PrefabIndexGroupNames:Second]
         [PrefabIndexGroupValues:3]
+        [PrefabIndexGroupNames:Second]
+        [PrefabIndexGroupValues:4]
         [PrefabOffsetOverrides:{X:200 Y:0 Z:200}]
         [PrefabOffsetOverrides:{X:-200 Y:0 Z:-200}]
 

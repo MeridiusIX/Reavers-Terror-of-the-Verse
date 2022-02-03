@@ -20,7 +20,7 @@
         [OverrideTargetData:Reaver-Target-Main-B]
 
         [EngageOnTargetLineOfSight:true]
-        [UseBarrageFire:true]
+        [WeaponSystem:Reaver-Weapons-Standard]
 
         [Triggers:Reaver-Trigger-GrindDamage]
         [Triggers:Reaver-Trigger-SmallHarpoon]
@@ -56,7 +56,7 @@
         [StrafeMinCooldownMs:3000]
         [StrafeMaxCooldownMs:5000]
 
-        [StrafeMinimumTargetDistance:300]
+        [StrafeMinimumTargetDistance:400]
         [StrafeSpeedCutOff:60]
         [StrafeDistanceCutOff:150]
 

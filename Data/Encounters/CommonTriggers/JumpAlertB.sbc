@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--JumpAlert-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Trigger-JumpAlertB</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:Reaver-Action-JumpAlertB]
+
+        [ToggleWithTriggerProfile:Reaver-Trigger-JumpAlertA]
+        [ToggledProfileResetsCooldown:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Action-JumpAlertB</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Reaver-Chat-JumpAlertB]
+
+        [SetGridCleanupExempt:true]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Reaver-Chat-JumpAlertB</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [Author:Reaver]
+        [Color:Red]
+
+        [ChatMessages:Reaver Jump Lock-On Detected]
+        [ChatAudio:Reaver-Detection-1]
+        [ChatVolumeMultiplier:0.2]
+        [BroadcastChatType:Notify]
+        [AllowDuplicatedMessages:true]
+
+      </Description>
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>
